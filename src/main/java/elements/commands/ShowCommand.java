@@ -16,11 +16,6 @@ public class ShowCommand implements Command {
     }
 
     @Override
-    public void undo() {
-
-    }
-
-    @Override
     public String toString() {
         return "Show("
                  + elementToShow +

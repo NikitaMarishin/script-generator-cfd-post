@@ -18,11 +18,6 @@ public class SetDirectoryForSaveCommand implements Command{
     }
 
     @Override
-    public void undo() {
-
-    }
-
-    @Override
     public String toString() {
         return "SetDirectory("
                  + directoryForSave + '\'' +

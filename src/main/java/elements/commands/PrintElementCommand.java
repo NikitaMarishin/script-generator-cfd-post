@@ -19,11 +19,6 @@ public class PrintElementCommand implements Command{
     }
 
     @Override
-    public void undo() {
-
-    }
-
-    @Override
     public String toString() {
         return "Print("
                 + elementToPrint +
