@@ -1,6 +1,6 @@
 package gui.addition_dialogs.addition_panels.printable_elements;
 
-import elements.contours.Contour;
+import elements.contours.RegularContour;
 import data.DataStorage;
 import elements.Printable;
 import elements.surfaces.Surface;
@@ -53,7 +53,7 @@ public class ContourAdditionPanel extends AdditionPanel {
     @Override
     public Vector<Printable> getNewInstances() {
         List<Printable> printableList = surfaceJList.getSelectedValuesList().stream()
-                .map(x-> new Contour(x, variableJList.getSelectedValue()))
+                .map(x-> new RegularContour(x, variableJList.getSelectedValue()))
                 .map(x-> x.setLimits(Double.parseDouble(minValue.getText()),
                         Double.parseDouble(maxValue.getText()), Integer.parseInt(divisions.getText())))
                 .collect(Collectors.toList());

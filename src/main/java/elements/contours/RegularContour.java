@@ -1,22 +1,21 @@
 package elements.contours;
 
-import elements.Printable;
 import elements.surfaces.Surface;
 import elements.variables.Variable;
 
-public class Contour implements Printable {
+public class RegularContour implements Contour {
     private Surface surfaceToPlot;
     private Variable variableToPlot;
     private double minValue;
     private double maxValue;
     private int numberOfDivision;
 
-    public Contour(Surface surfaceToPlot, Variable variableToPlot) {
+    public RegularContour(Surface surfaceToPlot, Variable variableToPlot) {
         this.surfaceToPlot = surfaceToPlot;
         this.variableToPlot = variableToPlot;
     }
 
-    public Contour setLimits(double minValue, double maxValue, int numberOfDivision) {
+    public RegularContour setLimits(double minValue, double maxValue, int numberOfDivision) {
         this.minValue = minValue;
         this.maxValue = maxValue;
         this.numberOfDivision = numberOfDivision;

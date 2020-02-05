@@ -1,8 +1,7 @@
 package elements.contours;
 
-import elements.Printable;
 
-public class ExistingContour implements Printable {
+public class ExistingContour implements Contour {
 
     private String nameOfExistingContour;
 
