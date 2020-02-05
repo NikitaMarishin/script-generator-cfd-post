@@ -1,15 +1,15 @@
 package elements.surfaces;
 
 public class ExistingSurface implements Surface {
-    private String nameOfSurface;
+    private String surfaceName;
 
-    public ExistingSurface(String nameOfSurface) {
-        this.nameOfSurface = nameOfSurface;
+    public ExistingSurface(String surfaceName) {
+        this.surfaceName = surfaceName;
     }
 
     @Override
     public String getName() {
-        return nameOfSurface;
+        return surfaceName;
     }
 
     @Override

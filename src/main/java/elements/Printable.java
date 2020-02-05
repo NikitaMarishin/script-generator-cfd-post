@@ -1,7 +1,5 @@
 package elements;
 
-import elements.Hideable;
-import elements.Showable;
 
 public interface Printable extends Showable, Hideable, Nameable {
 
