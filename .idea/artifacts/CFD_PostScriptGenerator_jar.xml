@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CFD-PostScriptGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CFD_PostScriptGenerator0_jar</output-path>
+    <root id="archive" name="CFD-PostScriptGenerator.jar">
+      <element id="module-output" name="CFD-PostScriptGenerator" />
+    </root>
+  </artifact>
+</component>
