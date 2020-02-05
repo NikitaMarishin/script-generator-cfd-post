@@ -1,6 +1,6 @@
 package gui.add_dialogs;
 
-import dto.DataStorage;
+import data.DataStorage;
 import gui.add_dialogs.add_panels.AbstractAddPanel;
 import gui.add_dialogs.add_panels.ContourAddPanel;
 import gui.add_dialogs.add_panels.ExContourAddPanel;

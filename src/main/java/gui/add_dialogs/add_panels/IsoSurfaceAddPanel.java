@@ -1,6 +1,6 @@
 package gui.add_dialogs.add_panels;
 
-import dto.DataStorage;
+import data.DataStorage;
 import elements.surfaces.IsoSurface;
 import elements.surfaces.Surface;
 import elements.variables.Variable;

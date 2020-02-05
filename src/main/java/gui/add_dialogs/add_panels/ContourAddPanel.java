@@ -1,7 +1,7 @@
 package gui.add_dialogs.add_panels;
 
 import elements.contours.Contour;
-import dto.DataStorage;
+import data.DataStorage;
 import elements.printer.Printable;
 import elements.surfaces.Surface;
 import elements.variables.Variable;

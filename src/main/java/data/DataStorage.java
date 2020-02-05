@@ -1,4 +1,4 @@
-package dto;
+package data;
 
 import elements.cameras.Camera;
 import elements.commands.Command;

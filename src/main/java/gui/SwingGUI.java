@@ -1,7 +1,7 @@
 package gui;
 
-import dto.DataStorage;
-import dto.ScriptGenerator;
+import data.DataStorage;
+import data.ScriptGenerator;
 import gui.managed_panels.*;
 
 import javax.swing.*;

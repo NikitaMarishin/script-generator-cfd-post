@@ -1,7 +1,7 @@
 package gui.managed_panels;
 
 import elements.cameras.Camera;
-import dto.DataStorage;
+import data.DataStorage;
 import gui.add_dialogs.CameraAddDialog;
 
 public class CameraManagedPanel extends ManagedElementsPanelAbstract<Camera> {

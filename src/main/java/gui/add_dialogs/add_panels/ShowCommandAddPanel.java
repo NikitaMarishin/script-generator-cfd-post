@@ -2,7 +2,7 @@ package gui.add_dialogs.add_panels;
 
 import elements.commands.Command;
 import elements.commands.ShowCommand;
-import dto.DataStorage;
+import data.DataStorage;
 import elements.surfaces.Surface;
 
 import javax.swing.*;

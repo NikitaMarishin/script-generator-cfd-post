@@ -3,7 +3,7 @@ package gui.add_dialogs.add_panels;
 import elements.cameras.Camera;
 import elements.commands.Command;
 import elements.commands.SetCameraCommand;
-import dto.DataStorage;
+import data.DataStorage;
 
 import javax.swing.*;
 import java.util.Vector;

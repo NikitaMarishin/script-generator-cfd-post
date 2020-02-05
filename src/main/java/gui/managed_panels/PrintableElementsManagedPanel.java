@@ -1,6 +1,6 @@
 package gui.managed_panels;
 
-import dto.DataStorage;
+import data.DataStorage;
 import gui.add_dialogs.PrintableElementsAddDialog;
 import elements.printer.Printable;
 
