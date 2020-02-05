@@ -1,15 +1,16 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.commands;
 
 import elements.commands.Command;
 import elements.commands.SetDirectoryForSaveCommand;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Vector;
 
-public class SetDirectoryCommandAddPanel extends AbstractAddPanel {
+public class SetDirectoryCommandAdditionPanel extends AdditionPanel {
     private JTextField directoryField;
 
-    public SetDirectoryCommandAddPanel() {
+    public SetDirectoryCommandAdditionPanel() {
         directoryField = new JTextField(30);
         add(directoryField);
     }

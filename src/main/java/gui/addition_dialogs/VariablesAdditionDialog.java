@@ -1,8 +1,8 @@
-package gui.add_dialogs;
+package gui.addition_dialogs;
 
 import data.DataStorage;
-import gui.add_dialogs.add_panels.AbstractAddPanel;
-import gui.add_dialogs.add_panels.VariableAddPanel;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
+import gui.addition_dialogs.addition_panels.variables.VariableAdditionPanel;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -11,16 +11,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
-public class VariableAddDialog extends AbstractAddDialog {
+public class VariablesAdditionDialog extends AdditionDialog {
 
-    public VariableAddDialog(DataStorage dataStorage) {
+    public VariablesAdditionDialog(DataStorage dataStorage) {
         this.dataStorage = dataStorage;
 
         Vector<JRadioButton> radioButtons = new Vector<>();
         radioButtons.add(new JRadioButton("Regular Variables", true));
 
-        Map<String, AbstractAddPanel> panelForCreation = new HashMap<>();
-        panelForCreation.put("Regular Variables", new VariableAddPanel());
+        Map<String, AdditionPanel> panelForCreation = new HashMap<>();
+        panelForCreation.put("Regular Variables", new VariableAdditionPanel());
 
 
         addDialogInit(dataStorage, radioButtons, panelForCreation);

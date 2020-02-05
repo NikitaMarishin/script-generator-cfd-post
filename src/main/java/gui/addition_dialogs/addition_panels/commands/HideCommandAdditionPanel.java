@@ -1,19 +1,20 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.commands;
 
 import elements.commands.Command;
 import elements.commands.HideCommand;
 import data.DataStorage;
 import elements.surfaces.Surface;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.List;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
-public class HideCommandAddPanel extends AbstractAddPanel {
+public class HideCommandAdditionPanel extends AdditionPanel {
     private JList<Surface> hideableJList;
 
-    public HideCommandAddPanel(DataStorage dataStorage) {
+    public HideCommandAdditionPanel(DataStorage dataStorage) {
 
         hideableJList = new JList<>(dataStorage.getSurfaces());
         hideableJList.setFixedCellHeight(15);

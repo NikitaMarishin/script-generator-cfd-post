@@ -1,7 +1,8 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.printable_elements;
 
 import elements.contours.ExistingContour;
 import elements.printer.Printable;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Arrays;
@@ -9,10 +10,10 @@ import java.util.List;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
-public class ExContourAddPanel extends AbstractAddPanel {
+public class ExContourAdditionPanel extends AdditionPanel {
     private JTextField namesOfExContoursField;
 
-    public ExContourAddPanel() {
+    public ExContourAdditionPanel() {
         namesOfExContoursField = new JTextField(30);
         add(namesOfExContoursField);
     }

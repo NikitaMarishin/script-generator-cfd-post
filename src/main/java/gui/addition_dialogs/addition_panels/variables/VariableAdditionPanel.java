@@ -1,17 +1,18 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.variables;
 
 import elements.variables.RegularVariable;
 import elements.variables.Variable;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Vector;
 
-public class VariableAddPanel extends AbstractAddPanel {
+public class VariableAdditionPanel extends AdditionPanel {
 
     private JTextField nameTextField;
     private JTextField dimensionTextField;
 
-    public VariableAddPanel() {
+    public VariableAdditionPanel() {
         nameTextField = new JTextField(30);
         add(nameTextField);
 

@@ -1,10 +1,11 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.printable_elements;
 
 import elements.contours.Contour;
 import data.DataStorage;
 import elements.printer.Printable;
 import elements.surfaces.Surface;
 import elements.variables.Variable;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,14 +13,14 @@ import java.util.List;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
-public class ContourAddPanel extends AbstractAddPanel {
+public class ContourAdditionPanel extends AdditionPanel {
     private JList<Variable> variableJList;
     private JList<Surface> surfaceJList;
     private JTextField minValue;
     private JTextField maxValue;
     private JTextField divisions;
 
-    public ContourAddPanel(DataStorage dataStorage) {
+    public ContourAdditionPanel(DataStorage dataStorage) {
         variableJList = new JList<>(dataStorage.getVariables());
         variableJList.setFixedCellHeight(15);
         variableJList.setFixedCellWidth(150);

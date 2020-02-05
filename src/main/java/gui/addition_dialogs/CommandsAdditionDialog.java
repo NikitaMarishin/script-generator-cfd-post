@@ -1,7 +1,8 @@
-package gui.add_dialogs;
+package gui.addition_dialogs;
 
 import data.DataStorage;
-import gui.add_dialogs.add_panels.*;
+import gui.addition_dialogs.addition_panels.*;
+import gui.addition_dialogs.addition_panels.commands.*;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -10,8 +11,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
-public class CommandsAddDialog extends AbstractAddDialog{
-    public CommandsAddDialog(DataStorage dataStorage) {
+public class CommandsAdditionDialog extends AdditionDialog {
+    public CommandsAdditionDialog(DataStorage dataStorage) {
 
         Vector<JRadioButton> radioButtons = new Vector<>();
         radioButtons.add(new JRadioButton("Set Directory", true));
@@ -20,12 +21,12 @@ public class CommandsAddDialog extends AbstractAddDialog{
         radioButtons.add(new JRadioButton("Set Camera"));
         radioButtons.add(new JRadioButton("Print"));
 
-        Map<String, AbstractAddPanel> panelForCreation = new HashMap<>();
-        panelForCreation.put("Set Directory", new SetDirectoryCommandAddPanel());
-        panelForCreation.put("Show", new ShowCommandAddPanel(dataStorage));
-        panelForCreation.put("Hide", new HideCommandAddPanel(dataStorage));
-        panelForCreation.put("Set Camera", new SetCameraCommandAddPanel(dataStorage));
-        panelForCreation.put("Print", new PrintCommandAddPanel(dataStorage));
+        Map<String, AdditionPanel> panelForCreation = new HashMap<>();
+        panelForCreation.put("Set Directory", new SetDirectoryCommandAdditionPanel());
+        panelForCreation.put("Show", new ShowCommandAdditionPanel(dataStorage));
+        panelForCreation.put("Hide", new HideCommandAdditionPanel(dataStorage));
+        panelForCreation.put("Set Camera", new SetCameraCommandAdditionPanel(dataStorage));
+        panelForCreation.put("Print", new PrintCommandAdditionPanel(dataStorage));
 
 
         addDialogInit(dataStorage, radioButtons, panelForCreation);

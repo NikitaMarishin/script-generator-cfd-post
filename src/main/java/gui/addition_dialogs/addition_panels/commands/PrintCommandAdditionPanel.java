@@ -1,19 +1,20 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.commands;
 
 import elements.commands.Command;
 import elements.commands.PrintElementCommand;
 import data.DataStorage;
 import elements.printer.Printable;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.List;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
-public class PrintCommandAddPanel extends AbstractAddPanel {
+public class PrintCommandAdditionPanel extends AdditionPanel {
     private JList<Printable> printElementCommandJList;
 
-    public PrintCommandAddPanel(DataStorage dataStorage) {
+    public PrintCommandAdditionPanel(DataStorage dataStorage) {
         printElementCommandJList = new JList<>(dataStorage.getPrintableElements());
         printElementCommandJList.setFixedCellHeight(15);
         printElementCommandJList.setFixedCellWidth(300);

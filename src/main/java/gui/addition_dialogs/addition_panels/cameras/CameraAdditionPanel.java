@@ -1,16 +1,17 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.cameras;
 
 import elements.cameras.Camera;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Vector;
 
-public class CameraAddPanel extends AbstractAddPanel {
+public class CameraAdditionPanel extends AdditionPanel {
 
     private JTextField cameraName;
     private JTextArea cameraDescription;
 
-    public CameraAddPanel() {
+    public CameraAdditionPanel() {
         cameraName =new JTextField(30);
         add(cameraName);
 

@@ -1,7 +1,7 @@
-package gui.add_dialogs;
+package gui.addition_dialogs;
 
 import data.DataStorage;
-import gui.add_dialogs.add_panels.AbstractAddPanel;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,17 +10,17 @@ import java.awt.event.ActionListener;
 import java.util.Map;
 import java.util.Vector;
 
-public abstract class AbstractAddDialog extends JDialog {
+public abstract class AdditionDialog extends JDialog {
 
     protected DataStorage dataStorage;
     private Vector<JRadioButton> radioButtons;
-    private Map<String, AbstractAddPanel> panelForCreation;
+    private Map<String, AdditionPanel> panelForCreation;
     private ActionListener panelSwitcherActionListener;
     private ActionListener applyButtonActionListener;
-    protected AbstractAddPanel currentPanel;
+    protected AdditionPanel currentPanel;
 
 
-    protected void addDialogInit(DataStorage dataStorage, Vector<JRadioButton> radioButtons, Map<String, AbstractAddPanel> panelForCreation) {
+    protected void addDialogInit(DataStorage dataStorage, Vector<JRadioButton> radioButtons, Map<String, AdditionPanel> panelForCreation) {
 
         this.dataStorage = dataStorage;
         this.radioButtons = radioButtons;

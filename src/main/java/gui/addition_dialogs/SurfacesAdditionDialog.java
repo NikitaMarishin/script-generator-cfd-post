@@ -1,9 +1,9 @@
-package gui.add_dialogs;
+package gui.addition_dialogs;
 
 import data.DataStorage;
-import gui.add_dialogs.add_panels.AbstractAddPanel;
-import gui.add_dialogs.add_panels.ExSurfaceAddPanel;
-import gui.add_dialogs.add_panels.IsoSurfaceAddPanel;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
+import gui.addition_dialogs.addition_panels.surfaces.ExSurfaceAdditionPanel;
+import gui.addition_dialogs.addition_panels.surfaces.IsoSurfaceAdditionPanel;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
-public class SurfaceAddDialog extends AbstractAddDialog {
-    public SurfaceAddDialog(DataStorage dataStorage) {
+public class SurfacesAdditionDialog extends AdditionDialog {
+    public SurfacesAdditionDialog(DataStorage dataStorage) {
         this.dataStorage = dataStorage;
 
 
@@ -22,9 +22,9 @@ public class SurfaceAddDialog extends AbstractAddDialog {
         radioButtons.add(new JRadioButton("IsoSurface"));
 
 
-        Map<String, AbstractAddPanel> panelForCreation = new HashMap<>();
-        panelForCreation.put(radioButtons.get(0).getText(), new ExSurfaceAddPanel());
-        panelForCreation.put(radioButtons.get(1).getText(), new IsoSurfaceAddPanel(dataStorage));
+        Map<String, AdditionPanel> panelForCreation = new HashMap<>();
+        panelForCreation.put(radioButtons.get(0).getText(), new ExSurfaceAdditionPanel());
+        panelForCreation.put(radioButtons.get(1).getText(), new IsoSurfaceAdditionPanel(dataStorage));
 
 
         addDialogInit(dataStorage, radioButtons, panelForCreation);

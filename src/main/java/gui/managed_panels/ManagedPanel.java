@@ -2,7 +2,7 @@ package gui.managed_panels;
 
 
 import data.DataStorage;
-import gui.add_dialogs.AbstractAddDialog;
+import gui.addition_dialogs.AdditionDialog;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,16 +10,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Vector;
 
-public abstract class ManagedElementsPanelAbstract<T> extends JPanel {
+public abstract class ManagedPanel<T> extends JPanel {
 
     private DataStorage dataStorage;
     private Vector<T> vectorOfManagedElements;
     private JList<T> jListOfElements;
     private JPanel panelWithButtons;
-    private AbstractAddDialog addDialog;
+    private AdditionDialog addDialog;
 
 
-    protected void init(DataStorage dataStorage, AbstractAddDialog addDialog, Vector<T> vectorOfManagedElements) {
+    protected void init(DataStorage dataStorage, AdditionDialog addDialog, Vector<T> vectorOfManagedElements) {
         this.dataStorage = dataStorage;
         this.addDialog = addDialog;
         this.vectorOfManagedElements = vectorOfManagedElements;

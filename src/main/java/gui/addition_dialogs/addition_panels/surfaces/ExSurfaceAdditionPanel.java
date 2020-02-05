@@ -1,7 +1,8 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.surfaces;
 
 import elements.surfaces.ExistingSurface;
 import elements.surfaces.Surface;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Arrays;
@@ -10,10 +11,10 @@ import java.util.List;
 import java.util.Vector;
 import java.util.stream.Collectors;
 
-public class ExSurfaceAddPanel extends AbstractAddPanel {
+public class ExSurfaceAdditionPanel extends AdditionPanel {
     private JTextField textField;
 
-    public ExSurfaceAddPanel() {
+    public ExSurfaceAdditionPanel() {
         textField = new JTextField(30);
         add(textField);
     }

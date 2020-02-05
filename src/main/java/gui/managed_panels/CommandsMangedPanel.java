@@ -2,12 +2,12 @@ package gui.managed_panels;
 
 import elements.commands.Command;
 import data.DataStorage;
-import gui.add_dialogs.CommandsAddDialog;
+import gui.addition_dialogs.CommandsAdditionDialog;
 
-public class CommandsMangedPanel extends ManagedElementsPanelAbstract<Command> {
+public class CommandsMangedPanel extends ManagedPanel<Command> {
 
     public CommandsMangedPanel(DataStorage dataStorage) {
 
-        init(dataStorage, new CommandsAddDialog(dataStorage), dataStorage.getCommands());
+        init(dataStorage, new CommandsAdditionDialog(dataStorage), dataStorage.getCommands());
     }
 }

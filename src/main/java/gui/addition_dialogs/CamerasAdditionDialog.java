@@ -1,8 +1,8 @@
-package gui.add_dialogs;
+package gui.addition_dialogs;
 
 import data.DataStorage;
-import gui.add_dialogs.add_panels.AbstractAddPanel;
-import gui.add_dialogs.add_panels.CameraAddPanel;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
+import gui.addition_dialogs.addition_panels.cameras.CameraAdditionPanel;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -11,17 +11,17 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
-public class CameraAddDialog extends AbstractAddDialog{
+public class CamerasAdditionDialog extends AdditionDialog {
 
 
-    public CameraAddDialog(DataStorage dataStorage) {
+    public CamerasAdditionDialog(DataStorage dataStorage) {
 
 
         Vector<JRadioButton> radioButtons = new Vector<>();
         radioButtons.add(new JRadioButton("Camera", true));
 
-        Map<String, AbstractAddPanel> panelForCreation = new HashMap<>();
-        panelForCreation.put("Camera", new CameraAddPanel());
+        Map<String, AdditionPanel> panelForCreation = new HashMap<>();
+        panelForCreation.put("Camera", new CameraAdditionPanel());
 
         addDialogInit(dataStorage, radioButtons, panelForCreation);
 

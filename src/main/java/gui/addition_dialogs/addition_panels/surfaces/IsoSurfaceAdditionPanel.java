@@ -1,20 +1,21 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.surfaces;
 
 import data.DataStorage;
 import elements.surfaces.IsoSurface;
 import elements.surfaces.Surface;
 import elements.variables.Variable;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class IsoSurfaceAddPanel extends AbstractAddPanel {
+public class IsoSurfaceAdditionPanel extends AdditionPanel {
     private JTextField textField;
     private JList<Variable> jList;
     private DataStorage dataStorage;
 
-    public IsoSurfaceAddPanel(DataStorage dataStorage) {
+    public IsoSurfaceAdditionPanel(DataStorage dataStorage) {
         this.dataStorage = dataStorage;
 
         jList = new JList<>(dataStorage.getVariables());

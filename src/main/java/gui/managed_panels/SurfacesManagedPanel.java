@@ -1,14 +1,14 @@
 package gui.managed_panels;
 
 import data.DataStorage;
-import gui.add_dialogs.SurfaceAddDialog;
+import gui.addition_dialogs.SurfacesAdditionDialog;
 import elements.surfaces.Surface;
 
-public class SurfacesManagedPanel extends ManagedElementsPanelAbstract<Surface> {
+public class SurfacesManagedPanel extends ManagedPanel<Surface> {
 
     public SurfacesManagedPanel(DataStorage dataStorage) {
 
-        init(dataStorage, new SurfaceAddDialog(dataStorage), dataStorage.getSurfaces());
+        init(dataStorage, new SurfacesAdditionDialog(dataStorage), dataStorage.getSurfaces());
     }
 
 }

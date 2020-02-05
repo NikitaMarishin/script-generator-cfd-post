@@ -1,17 +1,18 @@
-package gui.add_dialogs.add_panels;
+package gui.addition_dialogs.addition_panels.commands;
 
 import elements.cameras.Camera;
 import elements.commands.Command;
 import elements.commands.SetCameraCommand;
 import data.DataStorage;
+import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;
 import java.util.Vector;
 
-public class SetCameraCommandAddPanel extends AbstractAddPanel {
+public class SetCameraCommandAdditionPanel extends AdditionPanel {
     private JList<Camera> cameraJList;
 
-    public SetCameraCommandAddPanel(DataStorage dataStorage) {
+    public SetCameraCommandAdditionPanel(DataStorage dataStorage) {
         cameraJList = new JList<>(dataStorage.getCameras());
         cameraJList.setFixedCellHeight(15);
         cameraJList.setFixedCellWidth(300);
