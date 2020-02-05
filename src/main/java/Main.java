@@ -1,7 +1,7 @@
 import gui.SwingGUI;
 
 
-public class ScriptGenerator {
+public class Main {
     public static void main(String[] args) {
         new SwingGUI();
 
