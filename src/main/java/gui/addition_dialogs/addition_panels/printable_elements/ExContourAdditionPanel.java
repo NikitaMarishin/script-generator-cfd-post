@@ -1,7 +1,7 @@
 package gui.addition_dialogs.addition_panels.printable_elements;
 
 import elements.contours.ExistingContour;
-import elements.printer.Printable;
+import elements.Printable;
 import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;

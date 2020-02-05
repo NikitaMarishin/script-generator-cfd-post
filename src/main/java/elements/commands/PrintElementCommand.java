@@ -1,6 +1,6 @@
 package elements.commands;
 
-import elements.printer.Printable;
+import elements.Printable;
 import elements.printer.Printer;
 
 public class PrintElementCommand implements Command{

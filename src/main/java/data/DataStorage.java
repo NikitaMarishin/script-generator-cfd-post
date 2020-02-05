@@ -2,7 +2,7 @@ package data;
 
 import elements.cameras.Camera;
 import elements.commands.Command;
-import elements.printer.Printable;
+import elements.Printable;
 import elements.surfaces.Surface;
 import elements.variables.RegularVariable;
 import elements.variables.Variable;

@@ -2,7 +2,7 @@ package gui.addition_dialogs.addition_panels.printable_elements;
 
 import elements.contours.Contour;
 import data.DataStorage;
-import elements.printer.Printable;
+import elements.Printable;
 import elements.surfaces.Surface;
 import elements.variables.Variable;
 import gui.addition_dialogs.addition_panels.AdditionPanel;

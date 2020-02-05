@@ -3,7 +3,7 @@ package gui.addition_dialogs.addition_panels.commands;
 import elements.commands.Command;
 import elements.commands.PrintElementCommand;
 import data.DataStorage;
-import elements.printer.Printable;
+import elements.Printable;
 import gui.addition_dialogs.addition_panels.AdditionPanel;
 
 import javax.swing.*;

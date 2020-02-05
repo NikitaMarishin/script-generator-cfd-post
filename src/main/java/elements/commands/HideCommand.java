@@ -1,6 +1,8 @@
 package elements.commands;
 
 
+import elements.Hideable;
+
 public class HideCommand implements  Command{
 
     private Hideable elementToHide;

@@ -1,4 +1,4 @@
-package elements.commands;
+package elements;
 
 public interface Showable {
     String getScriptShow();

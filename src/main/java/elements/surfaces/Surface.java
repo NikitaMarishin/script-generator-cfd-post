@@ -1,9 +1,8 @@
 package elements.surfaces;
 
-import elements.printer.Printable;
+import elements.Printable;
 
 public interface Surface extends Printable {
-    String getName();
     String getScriptForInitialization();
     String getScriptForDelete();
 
@@ -11,7 +10,4 @@ public interface Surface extends Printable {
         return getScriptForInitialization() + ">show " + getName() + "\n";
     }
 
-    default String getScriptHide() {
-        return ">hide " + getName() + "\n";
-    }
 }

@@ -1,6 +1,6 @@
 package elements.contours;
 
-import elements.printer.Printable;
+import elements.Printable;
 import elements.surfaces.Surface;
 import elements.variables.Variable;
 

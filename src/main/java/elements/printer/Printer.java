@@ -1,5 +1,6 @@
 package elements.printer;
 
+import elements.Printable;
 import elements.surfaces.ExistingSurface;
 
 public class Printer {

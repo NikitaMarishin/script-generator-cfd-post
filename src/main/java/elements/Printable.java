@@ -1,10 +1,9 @@
-package elements.printer;
+package elements;
 
-import elements.commands.Hideable;
-import elements.commands.Showable;
+import elements.Hideable;
+import elements.Showable;
 
-public interface Printable extends Showable, Hideable {
-    String getName();
+public interface Printable extends Showable, Hideable, Nameable {
 
     @Override
     default String getScriptShow() {

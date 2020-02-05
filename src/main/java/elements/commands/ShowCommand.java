@@ -1,6 +1,8 @@
 package elements.commands;
 
 
+import elements.Showable;
+
 public class ShowCommand implements Command {
     private Showable elementToShow;
 
