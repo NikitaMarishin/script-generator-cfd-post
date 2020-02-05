@@ -1,6 +1,6 @@
-package surfaces;
+package elements.surfaces;
 
-import variables.Variable;
+import elements.variables.Variable;
 
 public class IsoSurface implements Surface {
     Variable isoVariable;

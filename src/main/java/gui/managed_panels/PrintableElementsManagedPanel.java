@@ -2,7 +2,7 @@ package gui.managed_panels;
 
 import dto.DataStorage;
 import gui.add_dialogs.PrintableElementsAddDialog;
-import printer.Printable;
+import elements.printer.Printable;
 
 
 public class PrintableElementsManagedPanel extends ManagedElementsPanelAbstract<Printable> {

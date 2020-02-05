@@ -1,7 +1,7 @@
 package gui.add_dialogs.add_panels;
 
-import commands.Command;
-import commands.SetDirectoryForSaveCommand;
+import elements.commands.Command;
+import elements.commands.SetDirectoryForSaveCommand;
 
 import javax.swing.*;
 import java.util.Vector;

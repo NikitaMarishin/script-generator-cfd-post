@@ -1,10 +1,9 @@
 package gui.add_dialogs.add_panels;
 
 import dto.DataStorage;
-import gui.add_dialogs.add_panels.AbstractAddPanel;
-import surfaces.IsoSurface;
-import surfaces.Surface;
-import variables.Variable;
+import elements.surfaces.IsoSurface;
+import elements.surfaces.Surface;
+import elements.variables.Variable;
 
 import javax.swing.*;
 import java.util.Scanner;

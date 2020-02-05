@@ -1,8 +1,8 @@
 package gui.add_dialogs.add_panels;
 
-import cameras.Camera;
-import commands.Command;
-import commands.SetCameraCommand;
+import elements.cameras.Camera;
+import elements.commands.Command;
+import elements.commands.SetCameraCommand;
 import dto.DataStorage;
 
 import javax.swing.*;

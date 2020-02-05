@@ -1,6 +1,6 @@
-package commands;
+package elements.commands;
 
-import printer.Printer;
+import elements.printer.Printer;
 
 public class SetDirectoryForSaveCommand implements Command{
     private Printer printer;

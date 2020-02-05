@@ -1,4 +1,4 @@
-package commands;
+package elements.commands;
 
 
 public class HideCommand implements  Command{

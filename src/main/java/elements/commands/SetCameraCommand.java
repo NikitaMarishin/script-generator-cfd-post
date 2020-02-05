@@ -1,6 +1,6 @@
-package commands;
+package elements.commands;
 
-import cameras.Camera;
+import elements.cameras.Camera;
 
 public class SetCameraCommand implements Command {
     private Camera camera;

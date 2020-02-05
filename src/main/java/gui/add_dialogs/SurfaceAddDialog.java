@@ -4,7 +4,6 @@ import dto.DataStorage;
 import gui.add_dialogs.add_panels.AbstractAddPanel;
 import gui.add_dialogs.add_panels.ExSurfaceAddPanel;
 import gui.add_dialogs.add_panels.IsoSurfaceAddPanel;
-import surfaces.Surface;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

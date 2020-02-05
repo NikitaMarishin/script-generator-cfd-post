@@ -1,10 +1,9 @@
 package gui.add_dialogs.add_panels;
 
-import commands.Command;
-import commands.HideCommand;
-import commands.Hideable;
+import elements.commands.Command;
+import elements.commands.HideCommand;
 import dto.DataStorage;
-import surfaces.Surface;
+import elements.surfaces.Surface;
 
 import javax.swing.*;
 import java.util.List;

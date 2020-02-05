@@ -1,7 +1,7 @@
 package gui.add_dialogs.add_panels;
 
-import contours.ExistingContour;
-import printer.Printable;
+import elements.contours.ExistingContour;
+import elements.printer.Printable;
 
 import javax.swing.*;
 import java.util.Arrays;

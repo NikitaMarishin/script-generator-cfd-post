@@ -3,16 +3,11 @@ package gui;
 import dto.DataStorage;
 import dto.ScriptGenerator;
 import gui.managed_panels.*;
-import surfaces.ExistingSurface;
-import surfaces.IsoSurface;
-import surfaces.Surface;
-import variables.RegularVariable;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Vector;
 
 public class SwingGUI {
 

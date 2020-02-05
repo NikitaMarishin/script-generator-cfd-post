@@ -1,6 +1,6 @@
-package contours;
+package elements.contours;
 
-import printer.Printable;
+import elements.printer.Printable;
 
 public class ExistingContour implements Printable {
 

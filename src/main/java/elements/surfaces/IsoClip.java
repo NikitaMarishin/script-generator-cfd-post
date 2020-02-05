@@ -1,6 +1,6 @@
-package surfaces;
+package elements.surfaces;
 
-import variables.Variable;
+import elements.variables.Variable;
 
 import java.util.ArrayList;
 import java.util.List;

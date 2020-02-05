@@ -1,4 +1,4 @@
-package surfaces;
+package elements.surfaces;
 
 public class ExistingSurface implements Surface {
     private String nameOfSurface;

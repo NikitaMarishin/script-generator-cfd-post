@@ -1,11 +1,11 @@
 package dto;
 
-import cameras.Camera;
-import commands.Command;
-import printer.Printable;
-import surfaces.Surface;
-import variables.RegularVariable;
-import variables.Variable;
+import elements.cameras.Camera;
+import elements.commands.Command;
+import elements.printer.Printable;
+import elements.surfaces.Surface;
+import elements.variables.RegularVariable;
+import elements.variables.Variable;
 
 import javax.swing.*;
 import java.util.List;

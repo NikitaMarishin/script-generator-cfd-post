@@ -1,8 +1,8 @@
-package contours;
+package elements.contours;
 
-import printer.Printable;
-import surfaces.Surface;
-import variables.Variable;
+import elements.printer.Printable;
+import elements.surfaces.Surface;
+import elements.variables.Variable;
 
 public class Contour implements Printable {
     private Surface surfaceToPlot;

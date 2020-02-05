@@ -1,6 +1,6 @@
-package surfaces;
+package elements.surfaces;
 
-import printer.Printable;
+import elements.printer.Printable;
 
 public interface Surface extends Printable {
     String getName();

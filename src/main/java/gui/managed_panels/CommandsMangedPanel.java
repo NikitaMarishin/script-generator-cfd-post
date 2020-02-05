@@ -1,6 +1,6 @@
 package gui.managed_panels;
 
-import commands.Command;
+import elements.commands.Command;
 import dto.DataStorage;
 import gui.add_dialogs.CommandsAddDialog;
 

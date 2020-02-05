@@ -1,6 +1,6 @@
 package dto;
 
-import commands.Command;
+import elements.commands.Command;
 
 import java.io.File;
 import java.io.FileNotFoundException;

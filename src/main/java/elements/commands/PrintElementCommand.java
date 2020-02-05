@@ -1,7 +1,7 @@
-package commands;
+package elements.commands;
 
-import printer.Printable;
-import printer.Printer;
+import elements.printer.Printable;
+import elements.printer.Printer;
 
 public class PrintElementCommand implements Command{
     private Printer printer;

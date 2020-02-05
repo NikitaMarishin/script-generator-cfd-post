@@ -1,10 +1,10 @@
 package gui.add_dialogs.add_panels;
 
-import contours.Contour;
+import elements.contours.Contour;
 import dto.DataStorage;
-import printer.Printable;
-import surfaces.Surface;
-import variables.Variable;
+import elements.printer.Printable;
+import elements.surfaces.Surface;
+import elements.variables.Variable;
 
 import javax.swing.*;
 import java.awt.*;

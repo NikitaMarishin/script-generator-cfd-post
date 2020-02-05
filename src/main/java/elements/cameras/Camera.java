@@ -1,4 +1,4 @@
-package cameras;
+package elements.cameras;
 
 public class Camera {
     private String cameraName;

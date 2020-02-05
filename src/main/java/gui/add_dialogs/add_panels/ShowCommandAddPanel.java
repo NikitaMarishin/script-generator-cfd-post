@@ -1,10 +1,9 @@
 package gui.add_dialogs.add_panels;
 
-import commands.Command;
-import commands.ShowCommand;
-import commands.Showable;
+import elements.commands.Command;
+import elements.commands.ShowCommand;
 import dto.DataStorage;
-import surfaces.Surface;
+import elements.surfaces.Surface;
 
 import javax.swing.*;
 import java.util.List;

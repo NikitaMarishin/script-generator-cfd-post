@@ -1,6 +1,6 @@
 package gui.add_dialogs.add_panels;
 
-import cameras.Camera;
+import elements.cameras.Camera;
 
 import javax.swing.*;
 import java.util.Vector;

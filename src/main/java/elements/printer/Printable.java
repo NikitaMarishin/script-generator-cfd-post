@@ -1,7 +1,7 @@
-package printer;
+package elements.printer;
 
-import commands.Hideable;
-import commands.Showable;
+import elements.commands.Hideable;
+import elements.commands.Showable;
 
 public interface Printable extends Showable, Hideable {
     String getName();

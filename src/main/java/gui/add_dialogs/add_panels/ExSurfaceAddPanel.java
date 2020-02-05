@@ -1,8 +1,7 @@
 package gui.add_dialogs.add_panels;
 
-import gui.add_dialogs.add_panels.AbstractAddPanel;
-import surfaces.ExistingSurface;
-import surfaces.Surface;
+import elements.surfaces.ExistingSurface;
+import elements.surfaces.Surface;
 
 import javax.swing.*;
 import java.util.Arrays;

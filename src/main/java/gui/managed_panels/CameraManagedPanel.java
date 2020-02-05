@@ -1,6 +1,6 @@
 package gui.managed_panels;
 
-import cameras.Camera;
+import elements.cameras.Camera;
 import dto.DataStorage;
 import gui.add_dialogs.CameraAddDialog;
 

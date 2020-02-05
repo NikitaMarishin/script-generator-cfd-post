@@ -1,8 +1,7 @@
 package gui.add_dialogs.add_panels;
 
-import surfaces.Surface;
-import variables.RegularVariable;
-import variables.Variable;
+import elements.variables.RegularVariable;
+import elements.variables.Variable;
 
 import javax.swing.*;
 import java.util.Vector;

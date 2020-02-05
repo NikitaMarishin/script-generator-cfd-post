@@ -1,6 +1,6 @@
-package printer;
+package elements.printer;
 
-import surfaces.ExistingSurface;
+import elements.surfaces.ExistingSurface;
 
 public class Printer {
     private final static Printer instance = new Printer();
